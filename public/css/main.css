@@ -1,0 +1,89 @@
+/* ==========================================================================
+    Default
+========================================================================== */
+:root {
+    --color-dark: #17171C;
+    --color-navy: #17171c;
+    --color-grey: #3D3B37;
+    --color-gold: #bd820bc5;
+    --color-red: #f14936;
+    --color-white: #ffffff;
+    --color-cream: #c6a779;
+    --color-green: #72876c;
+
+    --ht-100: 100vh;
+    --wt-100: 100vw;
+}
+
+* {
+     box-sizing: border-box; 
+    /*margin: 0; padding: 0;*/
+}
+
+/* ==========================================================================
+    Title
+========================================================================== */
+.section-title .title {
+    font-size: 34px;
+    line-height: 5px;
+    margin-bottom: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    color: var(--color-cream);
+
+}
+
+.section-title span {
+    color: var(--color-red);
+    text-transform: capitalize;
+}
+
+.section-title h3 {
+    font-weight: 700;
+    
+}
+
+@media (max-width: 767px) {
+    .section-title .title {
+        font-size: 24px;
+    }
+}
+
+.section-title .sub-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+@media (max-width: 767px) {
+    .section-title .sub-title {
+        font-size: 26px;
+    }
+}
+
+.section-title .sub-title span {
+    font-weight: 900;
+}
+
+.section-title .sub-title {
+    font-size: 26px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section-title .sub-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-title .sub-title {
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
+
+.section-title .sub-title span {
+    font-weight: 900;
+    display: contents;
+}
